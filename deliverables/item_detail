@@ -1,0 +1,5 @@
+curl http://localhost:5000/api/gifts/<item_id>
+
+Expected output:
+- JSON object for the requested gift item
+

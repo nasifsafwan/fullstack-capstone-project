@@ -1,0 +1,5 @@
+curl "http://localhost:5000/api/search?category=Furniture&location=Brooklyn"
+
+Expected output:
+- JSON object containing `total`, `filters`, and matching `results`
+

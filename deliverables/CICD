@@ -1,0 +1,8 @@
+GitHub Actions workflow file: .github/workflows/ci.yml
+
+Successful run should show:
+- checkout
+- setup-node
+- install dependencies
+- backend tests
+- frontend build
