@@ -37,10 +37,12 @@ export default function HomePage() {
     <section className="hero">
       <div className="hero-copy">
         <p className="eyebrow">Reuse locally. Gift thoughtfully.</p>
-        <h1>GiftLink helps households pass along useful items instead of throwing them away.</h1>
+        <h1>GiftLink</h1>
         <p className="hero-text">
-          Browse free household goods, search by style and location, and connect with neighbors who
-          would rather reuse than rebuy.
+          A community marketplace for giving away free household items and finding useful second-life goods nearby.
+        </p>
+        <p className="hero-text">
+          Browse listings, search by category and location, and connect with neighbors who would rather reuse than rebuy.
         </p>
         <div className="hero-actions">
           <Link className="primary-button" to="/register">
@@ -58,4 +60,3 @@ export default function HomePage() {
     </section>
   );
 }
-

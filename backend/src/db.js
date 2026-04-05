@@ -1,8 +1,11 @@
+import dotenv from "dotenv";
 import { MongoClient, ObjectId } from "mongodb";
 import giftsSeed from "../../data/gifts.json" with { type: "json" };
 
+dotenv.config();
+
 const uri = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017";
-const dbName = process.env.MONGODB_DB_NAME || "giftlink";
+const dbName = process.env.MONGODB_DB_NAME || "giftdb";
 
 let client;
 let database;
@@ -154,3 +157,5 @@ export async function closeDatabaseConnection() {
   database = undefined;
   memoryDatabase = undefined;
 }
+
+export default connectToDatabase;

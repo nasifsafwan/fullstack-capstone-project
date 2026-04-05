@@ -6,6 +6,12 @@
 **I need** `[goal or capability]`  
 **So that** `[reason or value]`
 
+### Details and Assumptions
+
+- Users can browse listings without authentication.
+- Registered users can maintain profile information and log in securely.
+- Listings represent free household items intended for local pickup.
+
 ### Acceptance Criteria
 
 - Given `[context]`
@@ -22,4 +28,3 @@
 6. As a user, I need to edit my profile so that my contact and pickup details remain accurate.
 7. As an administrator, I need application builds to pass in CI so that deployment risks are reduced.
 8. As a product owner, I need the backlog tracked in GitHub Issues so that progress is visible through the capstone.
-

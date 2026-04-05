@@ -1,5 +1,5 @@
 mongoimport --uri mongodb://127.0.0.1:27017/giftlink --collection gifts --file data/gifts.json --jsonArray
 
-Expected output:
-- imported 16 documents
-
+Sample output placeholder:
+2026-04-06T12:34:56.789+0600	connected to: mongodb://127.0.0.1:27017/giftlink
+2026-04-06T12:34:56.912+0600	16 document(s) imported successfully. 0 document(s) failed to import.

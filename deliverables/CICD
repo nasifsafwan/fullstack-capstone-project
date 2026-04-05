@@ -1,8 +1,58 @@
-GitHub Actions workflow file: .github/workflows/ci.yml
+curl -s https://api.github.com/repos/nasifsafwan/GiftLink/actions/runs/24009541575/jobs
 
-Successful run should show:
-- checkout
-- setup-node
-- install dependencies
-- backend tests
-- frontend build
+Output:
+{
+  "total_count": 2,
+  "jobs": [
+    {
+      "id": 70018751335,
+      "run_id": 24009541575,
+      "workflow_name": "GiftLink CI",
+      "head_branch": "main",
+      "head_sha": "f823001ae7fb29ea2fbde79b35354aebd10c139b",
+      "html_url": "https://github.com/nasifsafwan/GiftLink/actions/runs/24009541575/job/70018751335",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-04-05T20:12:29Z",
+      "started_at": "2026-04-05T20:12:31Z",
+      "completed_at": "2026-04-05T20:12:47Z",
+      "name": "build-and-test (frontend)",
+      "steps": [
+        { "name": "Set up job", "status": "completed", "conclusion": "success", "number": 1 },
+        { "name": "Checkout repository", "status": "completed", "conclusion": "success", "number": 2 },
+        { "name": "Set up Node.js", "status": "completed", "conclusion": "success", "number": 3 },
+        { "name": "Install dependencies", "status": "completed", "conclusion": "success", "number": 4 },
+        { "name": "Run backend tests", "status": "completed", "conclusion": "skipped", "number": 5 },
+        { "name": "Build frontend", "status": "completed", "conclusion": "success", "number": 6 },
+        { "name": "Post Set up Node.js", "status": "completed", "conclusion": "success", "number": 11 },
+        { "name": "Post Checkout repository", "status": "completed", "conclusion": "success", "number": 12 },
+        { "name": "Complete job", "status": "completed", "conclusion": "success", "number": 13 }
+      ]
+    },
+    {
+      "id": 70018751343,
+      "run_id": 24009541575,
+      "workflow_name": "GiftLink CI",
+      "head_branch": "main",
+      "head_sha": "f823001ae7fb29ea2fbde79b35354aebd10c139b",
+      "html_url": "https://github.com/nasifsafwan/GiftLink/actions/runs/24009541575/job/70018751343",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-04-05T20:12:29Z",
+      "started_at": "2026-04-05T20:12:31Z",
+      "completed_at": "2026-04-05T20:12:40Z",
+      "name": "build-and-test (backend)",
+      "steps": [
+        { "name": "Set up job", "status": "completed", "conclusion": "success", "number": 1 },
+        { "name": "Checkout repository", "status": "completed", "conclusion": "success", "number": 2 },
+        { "name": "Set up Node.js", "status": "completed", "conclusion": "success", "number": 3 },
+        { "name": "Install dependencies", "status": "completed", "conclusion": "success", "number": 4 },
+        { "name": "Run backend tests", "status": "completed", "conclusion": "success", "number": 5 },
+        { "name": "Build frontend", "status": "completed", "conclusion": "skipped", "number": 6 },
+        { "name": "Post Set up Node.js", "status": "completed", "conclusion": "success", "number": 11 },
+        { "name": "Post Checkout repository", "status": "completed", "conclusion": "success", "number": 12 },
+        { "name": "Complete job", "status": "completed", "conclusion": "success", "number": 13 }
+      ]
+    }
+  ]
+}
